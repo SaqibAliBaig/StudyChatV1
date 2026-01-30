@@ -70,18 +70,6 @@ export default function ChatHeader() {
         </div>
       </div>
       <div className="flex gap-6 ">
-        <MdCall
-          className="text-panel-header-icon cursor-pointer text-xl"
-          onClick={handleVoiceCall}
-        />
-        <IoVideocam
-          className="text-panel-header-icon cursor-pointer text-xl"
-          onClick={handleVideoCall}
-        />
-        <BiSearchAlt2
-          className="text-panel-header-icon cursor-pointer text-xl"
-          onClick={() => dispatch({ type: reducerCases.SET_MESSAGES_SEARCH })}
-        />
         <BsThreeDotsVertical
           className="text-panel-header-icon cursor-pointer text-xl"
           onClick={(e) => showContextMenu(e)}

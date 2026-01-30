@@ -22,7 +22,7 @@ export default function ChatList() {
         <>
           <ChatListHeader />
           <SearchBar />
-          {/* <List /> */}
+          <List />
         </>
       )}
       {pageType === "all-contacts" && <ContactsList />}
