@@ -1,7 +1,7 @@
 // fall back to localhost for local development; set
 // NEXT_PUBLIC_BACKEND_URL in Vercel (or any host) for production.
 export const HOST =
-  "https://studychatv1.onrender.com/" || "http://localhost:3005";
+  "https://studychatv1.onrender.com" || "http://localhost:3005";
 
 const authRoute = `${HOST}/api/auth`;
 const MESSAGES_ROUTE = `${HOST}/api/messages`;
