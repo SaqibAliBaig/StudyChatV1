@@ -37,3 +37,4 @@ yarn-error.log*
 .vercel
 
 .txt
+client/bun.lock
