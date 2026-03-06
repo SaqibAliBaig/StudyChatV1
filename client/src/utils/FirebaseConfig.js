@@ -1,4 +1,3 @@
-// client/src/utils/FirebaseConfig.js
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
@@ -14,6 +13,3 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const firebaseAuth = getAuth(app);
-
-// Enable CORS for cross-origin requests
-firebaseAuth.useDeviceLanguage();
