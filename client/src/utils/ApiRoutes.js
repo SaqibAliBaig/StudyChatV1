@@ -1,4 +1,6 @@
-export const HOST = "http://localhost:3005";
+// fall back to localhost for local development; set
+// NEXT_PUBLIC_BACKEND_URL in Vercel (or any host) for production.
+export const HOST = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:3005";
 
 const authRoute = `${HOST}/api/auth`;
 const MESSAGES_ROUTE = `${HOST}/api/messages`;
